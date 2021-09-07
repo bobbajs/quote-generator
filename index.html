@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="template">
+        <div class="quote-container">
+            <div class="quote">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <span class="quote-text"id="quote"></span>
+            </div>
+            <div class="author">
+                <em id="author"></em>
+            </div>
+            <div class="buttons">
+                <div class="twitter button">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="new-quote button" id="new-quote" onclick="newQuote()">New Quote</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
